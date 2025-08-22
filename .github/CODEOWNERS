@@ -1,0 +1,34 @@
+# CODEOWNERS file for location-adapter-615
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-research @Armor-test/squad-reporting @Armor-test/squad-payments
+
+# Directory ownership
+/plugins/ @Armor-test/unit-cloud @Armor-test/team-frontend @Armor-test/dept-notifications
+/docs/ @Armor-test/squad-research @Armor-test/team-governance
+/models/ @Armor-test/team-research @Armor-test/squad-ux @Armor-test/grp-search
+/data/ @Armor-test/dept-security @Armor-test/unit-test
+/hooks/ @Armor-test/dept-security @Armor-test/dept-reliability
+/shared/ @Armor-test/squad-search @Armor-test/squad-mobile @Armor-test/dept-security
+/components/ @Armor-test/unit-design @Armor-test/dept-automation @Armor-test/dept-test
+/services/ @Armor-test/grp-integration @Armor-test/unit-cloud
+/views/ @Armor-test/unit-cloud @Armor-test/squad-product @Armor-test/squad-cache
+/middleware/ @Armor-test/grp-reporting @Armor-test/team-research @Armor-test/dept-billing
+
+# File type ownership
+*.md @Armor-test/dept-ui @Armor-test/squad-ml
+*.h @Armor-test/squad-payments @Armor-test/dept-automation @Armor-test/squad-api
+*.scala @Armor-test/grp-integration @Armor-test/dept-api @Armor-test/dept-reporting
+*.php @Armor-test/dept-api @Armor-test/dept-notifications
+*.ts @Armor-test/squad-ux @Armor-test/team-security
+*.py @Armor-test/grp-payments @Armor-test/squad-qa
+*.jsx @Armor-test/team-core @Armor-test/grp-reporting @Armor-test/squad-performance
+*.java @Armor-test/squad-reporting @Armor-test/team-security @Armor-test/squad-research
+*.yaml @Armor-test/squad-payments @Armor-test/squad-product
+*.c @Armor-test/team-governance @Armor-test/squad-payments
+*.graphql @Armor-test/team-frontend @Armor-test/grp-api
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
